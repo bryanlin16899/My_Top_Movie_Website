@@ -7,8 +7,8 @@ from wtforms.validators import DataRequired
 import requests
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
-TMDB_API_KEY = "bb100261e5ce720c7dea6336df10ad40"
+app.config['SECRET_KEY'] = 'YOUR_SECRET_KEY'
+TMDB_API_KEY = "YOUR_API_KEY"
 Bootstrap(app)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///movies_data_n.db"
